@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="suite"> <!--parallel="tests" thread-count="2" -->
+    <test name="Para Bank Automation">
+        <classes>
+            <class name="Tests.RegisterTest"/>
+            <class name="Tests.LoginTest"/>
+            <class name="Tests.OpenNewAccountTest"/>
+            <class name="Tests.TransferMoneyTest"/>
+            <class name="Tests.RequestLoanTest"/>
+            <class name="Tests.BillPayTest"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
